@@ -1,0 +1,47 @@
+body{
+	background-image: url("../img/TV.png");
+	background-size: 1400px 900px; /* テレビの大きさ */
+	background-position: 50px 50px; /* テレビの位置 */
+	background-repeat: no-repeat;
+}
+
+#ji_1{
+	position: absolute;
+	left: 400px;
+	top: 350px;
+	font-size: 50px;
+}
+#ji_2{
+	position: absolute;
+	left: 250px;
+	top: 500px;
+	font-size: 50px;
+}
+
+	button {
+		top: 700px;
+		left: 700px;
+		display: inline-block;
+		width: 120px;
+		height: 120px;
+		line-height: 120px;
+		background: -webkit-linear-gradient(#fe5f95 , #ff3f7f);
+		background: linear-gradient(#fe5f95 , #ff3f7f);
+		border: 1px solid #fe3276;
+		border-radius: 50%;
+		color: #fff;
+		text-decoration: none;
+		text-align: center;
+		-webkit-transition: .2s ease-in-out;
+		transition: .2s ease-in-out;
+	}
+	button:hover {
+		-webkit-transform: scale(1.1) rotate(-15deg);
+		transform: scale(1.1) rotate(-15deg);
+	}
+
+#btn1{
+	margin-top:600px;
+	margin-left: 1150px;
+
+}
