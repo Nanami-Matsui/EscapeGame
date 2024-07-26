@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>スピード分別ゲーム</title>
+	<link href="css/style2.css" rel="stylesheet">
+</head>
+<body onload="setImg()">
+
+	<p id="setumei1">ゴミをクリックしてからそれを捨てるゴミ箱をクリックしよう（＊＿＊）</p>
+	<p id="setumei2">大阪市の分別方法です。</p>
+	<img src="img/doa1.png" id="doa" onclick="door()">
+	<div id="gomiarea">
+
+		<table align="center">
+			<tr>
+				<td>
+					<img src="img/gomi.png" onclick="hutuu()" class="gomibako">
+				</td>
+				<td>
+					<img src="img/gomi.png" onclick="sigen()" class="gomibako">
+				</td>
+				<td>
+					<img src="img/gomi.png" onclick="pura()" class="gomibako">
+				</td>
+				<td>
+					<img src="img/gomi.png" onclick="kosiirui()" class="gomibako">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>普通ゴミ</span>
+				</td>
+				<td>
+					<span>資源ゴミ</span>
+				</td>
+				<td>
+					<span>プラゴミ</span>
+				</td>
+				<td>
+					<span>古紙・衣類ゴミ</span>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<div id="desk">
+		<!--ここにゴミの画像を表示しよう！-->
+		<p></p>
+		<img src="" id="gomi0" class="gomi" onclick="gomi(0)">
+		<img src="" id="gomi1" class="gomi" onclick="gomi(1)">
+		<img src="" id="gomi2" class="gomi" onclick="gomi(2)">
+		<img src="" id="gomi3" class="gomi" onclick="gomi(3)">
+		<img src="" id="gomi4" class="gomi" onclick="gomi(4)">
+		<img src="" id="gomi5" class="gomi" onclick="gomi(5)">
+		<img src="" id="gomi6" class="gomi" onclick="gomi(6)">
+	</div>
+		<p id="moji">後<span id="moji2">3</span>回間違えると、最初に戻るよ！</p>
+	<script type="text/javascript" src="js/stage_2.js"></script>
+</body>
+</html>
