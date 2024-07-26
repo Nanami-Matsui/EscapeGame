@@ -34,7 +34,7 @@ function timer(){
 }
 function hutuu(){
 	/* オリジナルバージョン */
-	if(gomi_name =="img/kamikuzu.png" || gomi_name =="img/hyoku.png" || gomi_name =="img/スプーン.png" || gomi_name =="img/sakana.png"){
+	if(gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/kamikuzu.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/hyoku.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/spoon.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/sakana.png?raw=true"){
 		correct();
 	}else{
 		matigai=matigai-1;
@@ -58,7 +58,7 @@ function sigen(){
 }
 
 function pura(){
-	if(gomi_name=="img/potatochips.png"){
+	if(gomi_name=="https://github.com/Nanami-Matsui/EscapeGame/blob/main/potatochips.png?raw=true"){
 		correct();
 	}
 
@@ -75,7 +75,7 @@ function pura(){
 
 
 function kosiirui(){
-	if(gomi_name=="img/miruku.png"){
+	if(gomi_name=="https://github.com/Nanami-Matsui/EscapeGame/blob/main/miruku.png?raw=true"){
 		correct();
 	}else{
 		matigai=matigai-1;
@@ -131,7 +131,7 @@ function correct(){
 		// ゴミをすべて捨てたかどうか
 
 		if(nokori == 0){
-			document.getElementById("doa").src="img/doa2.png";
+			document.getElementById("doa").src="https://github.com/Nanami-Matsui/EscapeGame/blob/main/doa2.png?raw=true";
 			aku.play();
 			alert("ドアをタップして！")
 
