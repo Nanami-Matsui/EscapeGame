@@ -1,5 +1,6 @@
 body{
-	background-image: url("../img/TV.png");
+	/*background-image: url("../img/TV.png");*/
+	background-image: url("https://github.com/Nanami-Matsui/Escape/blob/main/TV.png?raw=true");
 	background-size: 1400px 900px; /* テレビの大きさ */
 	background-position: 50px 50px; /* テレビの位置 */
 	background-repeat: no-repeat;
