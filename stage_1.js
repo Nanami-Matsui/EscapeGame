@@ -1,4 +1,10 @@
-var images=["img/kamikuzu.png","img/sakana.png","img/potatochips.png","img/miruku.png","img/hyoku.png","img/スプーン.png"];
+// var images=["img/kamikuzu.png","img/sakana.png","img/potatochips.png","img/miruku.png","img/hyoku.png","img/スプーン.png"];
+var images=["https://github.com/Nanami-Matsui/EscapeGame/blob/main/kamikuzu.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/sakana.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/potatochips.png?raw=true",
+	    "img/https://github.com/Nanami-Matsui/EscapeGame/blob/main/miruku.png?raw=true",
+	    "img/https://github.com/Nanami-Matsui/EscapeGame/blob/main/hyoku.png?raw=true",
+	    "img/https://github.com/Nanami-Matsui/EscapeGame/blob/main/スプーン.png?raw=true"];
 
 var names=["紙くず", "魚の骨", "お菓子の袋", "空の牛乳パック", "コンビニ弁当のフォーク", "コンビニ弁当のスプーン"];
 
