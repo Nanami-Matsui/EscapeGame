@@ -1,4 +1,12 @@
-var images=["img/CDDVD.png","img/jyougi.png","img/pet_hontai.png","img/pet_ravel.png","img/pet_kyappu.png","img/sinnbunnsi.png","img/yakann.png"];
+//var images=["img/CDDVD.png","img/jyougi.png","img/pet_hontai.png","img/pet_ravel.png","img/pet_kyappu.png","img/sinnbunnsi.png","img/yakann.png"];
+var images=["https://github.com/Nanami-Matsui/EscapeGame/blob/main/CDDVD.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/jyougi.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/pet_hontai.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/pet_ravel.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/pet_kyappu.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/sinnbunnsi.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/yakann.png?raw=true"];
+
 var names=["CD・DVDのケース","定規","ペットボトル","ペットボトルのラベル","ペットボトルのキャップ","新聞紙","やかん",]
 var aku = new Audio("sound/door-old-open1.mp3")
 var suteru = new Audio("sound/water-drop1.mp3");
