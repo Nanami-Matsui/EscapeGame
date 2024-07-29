@@ -1,5 +1,5 @@
 body{
-	background-image: url("../img/tsukue.png");
+	background-image: url("https://github.com/Nanami-Matsui/EscapeGame/blob/main/tsukue.png?raw=true");
 	background-size: 800px 330px; /* 机の大きさ */
 	background-position: 330px 440px; /* 机の位置 */
 	background-repeat: no-repeat;
