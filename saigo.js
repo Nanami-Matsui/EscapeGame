@@ -6,5 +6,5 @@ alert("脱出成功");
 seikou.play();
 
 function ritorai(){
-	location.href="hajime.html";
+	location.href="index.html";
 }
