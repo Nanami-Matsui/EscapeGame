@@ -1,4 +1,10 @@
-var images=["img/doraiya.png","img/pot.png","img/rajikase.png","img/plaiya.png","img/bideo.png","img/syuredar.png","img/photo.png"];
+var images=["https://github.com/Nanami-Matsui/EscapeGame/blob/main/doraiya.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/pot.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/rajikase.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/plaiya.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/bideo.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/syuredar.png?raw=true",
+	    "https://github.com/Nanami-Matsui/EscapeGame/blob/main/photo.png?raw=true"];
 var names=["ドライヤー","電気ポット","ラジカセ","ポータブル音楽プレイヤー","ビデオテープ","シュレッダーにかけた紙","写真"];
 var aku = new Audio("sound/door-old-open1.mp3");
 var suteru = new Audio("sound/water-drop1.mp3");
@@ -26,7 +32,7 @@ function timer(){
 	}
 }
 function hutuu(){
-	if(gomi_name =="img/pot.png" || gomi_name =="img/rajikase.png" || gomi_name =="img/bideo.png" || gomi_name =="img/photo.png"){
+	if(gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/pot.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/rajikase.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/bideo.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/photo.png?raw=true"){
 		correct();
 	}else{
 		matigai=matigai-1;
@@ -60,7 +66,7 @@ function pura(){
 }
 
 function kosiirui(){
-	if(gomi_name =="img/syuredar.png"){
+	if(gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/syuredar.png?raw=true"){
 		correct();
 	}else{
 		matigai=matigai-1;
@@ -74,7 +80,7 @@ function kosiirui(){
 }
 
 function BOX(){
-	if(gomi_name =="img/doraiya.png" || gomi_name =="img/plaiya.png"){
+	if(gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/doraiya.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/plaiya.png?raw=true"){
 		correct();
 	}else{
 		matigai=matigai-1;
@@ -115,7 +121,7 @@ function gomi(num){
 
 function correct(){
 		images.splice(gomi_position,1);
-		images.splice(gomi_position, 0, "img/nashi.png");
+		images.splice(gomi_position, 0, "https://github.com/Nanami-Matsui/EscapeGame/blob/main/nashi.png?raw=true");
 		nokori = nokori - 1;
 		flag=0;
 		gomi_name="";
@@ -127,7 +133,7 @@ function correct(){
 
 		// ゴミをすべて捨てたかどうか
 		if(nokori == 0){
-			document.getElementById("doa").src="img/doa2.png";
+			document.getElementById("doa").src="https://github.com/Nanami-Matsui/EscapeGame/blob/main/doa2.png?raw=true";
 			aku.play();
 			alert("ドアをタップして！")
 		}
