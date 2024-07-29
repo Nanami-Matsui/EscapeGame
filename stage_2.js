@@ -34,7 +34,7 @@ function timer(){
 	}
 }
 function hutuu(){
-	if(gomi_name =="img/CDDVD.png" || gomi_name =="img/jyougi.png"){
+	if(gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/CDDVD.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/jyougi.png?raw=true"){
 		correct();
 	}else{
 		matigai=matigai-1;
@@ -47,7 +47,7 @@ function hutuu(){
 	}
 }
 function sigen(){
-	if(gomi_name =="img/yakann.png" || gomi_name =="img/pet_hontai.png"){
+	if(gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/yakan.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/pet_hontai.png?raw=true"){
 		correct();
 	}else{
 		matigai=matigai-1;
@@ -62,7 +62,7 @@ function sigen(){
 
 
 function pura(){ 
-	if(gomi_name =="img/pet_ravel.png" || gomi_name =="img/pet_kyappu.png"){
+	if(gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/pet_ravel.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/pet_kyappu.png?raw=true"){
 		correct();
 	}else{
 		matigai=matigai-1;
@@ -76,7 +76,7 @@ function pura(){
 }
 
 function kosiirui(){
-	if(gomi_name=="img/sinnbunnsi.png"){
+	if(gomi_name=="https://github.com/Nanami-Matsui/EscapeGame/blob/main/sinnbunnsi.png?raw=true"){
 		correct();
 	}else{
 		matigai=matigai-1;
@@ -117,7 +117,7 @@ function gomi(num){
 
 function correct(){
 		images.splice(gomi_position,1);
-		images.splice(gomi_position, 0, "img/nashi.png");
+		images.splice(gomi_position, 0, "https://github.com/Nanami-Matsui/EscapeGame/blob/main/nashi.png?raw=true");
 		nokori = nokori - 1;
 		flag=0;
 		gomi_name="";
@@ -129,7 +129,7 @@ function correct(){
 
 		// ゴミをすべて捨てたかどうか
 		if(nokori == 0){
-			document.getElementById("doa").src="img/doa2.png";
+			document.getElementById("doa").src="https://github.com/Nanami-Matsui/EscapeGame/blob/main/doa2.png?raw=true";
 			aku.play();
 			alert("ドアをタップして！")
 		}
