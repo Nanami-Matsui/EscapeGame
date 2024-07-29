@@ -118,7 +118,7 @@ function gomi(num){
 
 function correct(){
 		images.splice(gomi_position,1);
-		images.splice(gomi_position, 0, "img/nashi.png");
+		images.splice(gomi_position, 0, "https://github.com/Nanami-Matsui/EscapeGame/blob/main/nashi.png?raw=true");
 		nokori = nokori - 1;
 		flag=0;
 		gomi_name="";
