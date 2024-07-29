@@ -47,7 +47,7 @@ function hutuu(){
 	}
 }
 function sigen(){
-	if(gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/yakan.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/pet_hontai.png?raw=true"){
+	if(gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/yakann.png?raw=true" || gomi_name =="https://github.com/Nanami-Matsui/EscapeGame/blob/main/pet_hontai.png?raw=true"){
 		correct();
 	}else{
 		matigai=matigai-1;
